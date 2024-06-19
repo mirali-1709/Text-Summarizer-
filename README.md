@@ -38,45 +38,42 @@ Ensure you have the following installed:
 ### Clone the Repository
 
 Install Required Libraries
-pip install transformers
-pip install PyPDF2
-pip install sentencepiece
-pip install flask
+- pip install transformers
+- pip install PyPDF2
+- pip install sentencepiece
+- pip install flask
 
-Usage
+### Usage
 Run the Flask Server
 
-In the project directory, run:
-python app.py
-This will start the Flask server on http://127.0.0.1:5000/.
-Open the Web Page
-Open your web browser and navigate to http://127.0.0.1:5000/. You will see the text summarizer web page.
+- In the project directory, run:
+- python app.py
+- This will start the Flask server on http://127.0.0.1:5000/.
+- Open the Web Page- Open your web browser and navigate to http://127.0.0.1:5000/. You will see the text summarizer web page.
+- Summarize Text
+- Direct Text Input: Enter text directly into the text box and click the "Summarize" button to get the summary.
+- File Upload: Upload a text file (e.g., .pdf) and click the "Summarize" button to get the summary.
 
-Summarize Text
+### Project Structure
 
-Direct Text Input: Enter text directly into the text box and click the "Summarize" button to get the summary.
-File Upload: Upload a text file (e.g., .pdf) and click the "Summarize" button to get the summary.
-
-Project Structure
-
-text-summarizer-webpage/
-│
-├── app.py                  # Flask application
-├── templates/
-│   └── index.html          # HTML file for the web page
-├── static/
-│   ├── css/
-│        └── styles.css      # CSS file for styling
-└── README.md               # This README file
+- text-summarizer-webpage/
+- │
+- ├── app.py                  # Flask application
+- ├── templates/
+- │   └── index.html          # HTML file for the web page
+- ├── static/
+- │   ├── css/
+- │        └── styles.css      # CSS file for styling
+- └── README.md               # This README file
 
 
-Acknowledgements
+### Acknowledgements
 The Hugging Face Transformers library.
 The PyPDF2 library.
 The SentencePiece library.
 The Flask framework.
 
-Contributing
+### Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any bugs, improvements, or features.
 
 
